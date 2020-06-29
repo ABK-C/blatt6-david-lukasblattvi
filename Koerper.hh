@@ -6,7 +6,9 @@
 class Koerper {
 public:
   virtual Vektor punkt() = 0;
+  virtual double masse() = 0;
   virtual std::string name() {return "Koerper";}
+
 };
 
 #endif
